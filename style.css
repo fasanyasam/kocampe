@@ -1,0 +1,128 @@
+html,
+body {
+  margin: 0;
+  color: white;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+#banner {
+  background-image: url(/images/banner.jpeg);
+  height: 90vh;
+}
+.banner-text {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  bottom: 20vh;
+  gap: 50px;
+}
+
+.banner-text h1 {
+  font-size: 6em;
+  font-style: italic;
+}
+.banner-text p {
+  padding: 50px;
+  width: 40vw;
+  line-height: 1.5;
+  background-color: white;
+  color: black;
+}
+
+.about {
+  background-color: pink;
+  padding: 10%;
+}
+.about h2 {
+  width: 80vw;
+  font-size: 2em;
+  font-style: italic;
+}
+.about p {
+  width: 40vw;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.gallery-image {
+  width: 100%;
+}
+
+.coming-soon {
+  background-color: pink;
+  padding: 6%;
+  text-align: center;
+}
+
+.coming-soon h2 {
+  font-size: 3em;
+  font-style: italic;
+  line-height: 0;
+}
+
+.coming-soon p {
+  font-size: 1.4em;
+}
+
+input {
+  padding: 15px;
+  border: none;
+  border-radius: 50px;
+}
+
+.btn {
+  padding: 15px 50px;
+  background-color: black;
+  color: white;
+}
+
+.article {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 30px;
+  color: black;
+  padding: 40px;
+}
+
+.article img {
+  width: 30vw;
+}
+.article div p {
+  padding: 5% 20px 0 20px;
+  font-size: 1.4em;
+  line-height: 1.6;
+  text-align: justify;
+}
+.signature {
+  font-style: italic;
+  color: palevioletred;
+}
+
+.collections-section {
+  background-color: palevioletred;
+}
+
+.collections-section h2 {
+  font-size: 5em;
+  font-style: italic;
+  text-align: center;
+}
+
+.collections {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+}
+.collections img{
+    width: 20vw;
+}
+
+

@@ -121,8 +121,59 @@ input {
   gap: 10px;
   justify-content: center;
 }
-.collections img{
-    width: 20vw;
+.collections img {
+  width: 20vw;
 }
 
+.product {
+  align-self: center;
+  color: black;
+  display: flex;
+  flex-direction: row;
+}
 
+.product img {
+  width: 30vw;
+  padding: 50px;
+}
+
+.product div {
+  padding: 40px 20px;
+}
+
+.class-btn{
+  background-color: black;
+  color: white;
+  padding: 10px 30px;
+}
+
+.subscribe{
+  display: flex;
+  flex-direction: row;
+  gap: 10%;
+  color: black;
+  
+}
+
+.line{
+  height: 1vh;
+  width: 80%;
+  background-color: black;
+}
+
+.subscribe img{
+  width: 60vw;
+  height: 90vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.subscribe h2{
+  font-size: 5em;
+  font-style: italic;
+  color: black;
+}
+
+.subscribe form input{
+  padding: 10px 50px 10px 10px ;
+}
